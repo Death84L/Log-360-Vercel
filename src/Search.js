@@ -3,7 +3,6 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import './Search.css';
-require('dotenv').config();
 
 const Search = () => {
   const [searchParams, setSearchParams] = useState({
