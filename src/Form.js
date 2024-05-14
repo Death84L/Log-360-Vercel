@@ -3,7 +3,6 @@ import axios from 'axios';
 import './Form.css';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-require('dotenv').config();
 
 function Form() {
   const [logData, setLogData] = useState({
